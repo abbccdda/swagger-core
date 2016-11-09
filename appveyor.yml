@@ -2,7 +2,6 @@ install:
   - cmd: java -version
 
 test_script:
-  - mvn test
   - mvn clean verify 
 
 cache:
